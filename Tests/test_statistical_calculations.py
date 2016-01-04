@@ -4,10 +4,10 @@ from AlgoBench.benchmark import Benchmark, AlgoBenchError
 
 class TestStatisticalCalculations():
 
-    apiKeyRequired = pytest.mark.skipif(
-    not pytest.config.getoption("--runApiKeyTests"),
-    reason="need --runApiKeyTests option to run"
-    )
+    #apiKeyRequired = pytest.mark.skipif(
+    #not pytest.config.getoption("--runApiKeyTests"),
+    #reason="need --runApiKeyTests option to run"
+    #)
 
     def testCalcAverage(self):
         settings = {}
