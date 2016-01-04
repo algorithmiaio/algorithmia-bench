@@ -163,6 +163,8 @@ for algoVersion in b.average:
 Example of loading labelled data and calculating F1 Score for each category.
 ```python
 from AlgoBench.benchmark import Benchmark
+import operator
+
 
 # Our benchmark settings
 settings = {
