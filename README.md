@@ -1,6 +1,6 @@
 # Algorithmia Benchmark Tester (beta)
 
-[![Travis](https://img.shields.io/travis/algorithmiaio/algorithmia-bench.svg)](https://travis-ci.org/algorithmiaio/algorithmia-benchmark)
+[![Travis](https://img.shields.io/travis/algorithmiaio/algorithmia-bench.svg)](https://travis-ci.org/algorithmiaio/algorithmia-bench)
 [![PyPi](https://img.shields.io/pypi/v/algorithmia-bench.svg)](https://pypi.python.org/pypi/algorithmia-bench)
 
 Algorithmia Benchmark Tester is a library for testing algorithm performance, comparing algorithms and getting statistical information for each benchmark run. The library also creates certain visualizations (not implemented yet) and gives you a high level idea of how your algorithms perform with different parameters.
