@@ -172,9 +172,9 @@ settings = {
     "inputLabelList": [
         # 5 is positive, 3 is neutral and 1 is negative
         {"data": "a happy tweet", "label": 5},
-        {"data": "a sad tweet", "label": 3},
+        {"data": "a neutral tweet", "label": 3},
         ...
-        {"data": "a neutral tweet", "label": 1}
+        {"data": "a bad tweet", "label": 1}
     ],
     "algoSingle": "nlp/SocialSentimentAnalysis",
     "numBench": 1,
