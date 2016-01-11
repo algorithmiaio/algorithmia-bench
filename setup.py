@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='algorithmia-bench',
-    version='0.1.0',
+    version='0.1.1',
     description='Algorithmia Benchmark Tester',
     long_description='Algorithmia Benchmark Tester is a library for testing algorithm performance, comparing algorithms and getting statistical information for each benchmark run.',
     url='http://github.com/algorithmiaio/algorithmia-bench',
