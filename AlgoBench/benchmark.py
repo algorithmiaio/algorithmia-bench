@@ -246,10 +246,10 @@ class Benchmark(object):
             elif res['result'] != res['label']:
                 overall_negative += 1
 
-        if float(overall_negative + overall_negative) == 0.0:
+        if float(overall_positive + overall_negative) == 0.0:
             self.stats['accuracy']['overall'] = None
         else:
-            self.stats['accuracy']['overall'] = float(overall_positive) / float(overall_negative + overall_negative)
+            self.stats['accuracy']['overall'] = float(overall_positive) / float(overall_positive + overall_negative)
 
     def __calcPrecision(self):
         # Calculate precision for each label/class
