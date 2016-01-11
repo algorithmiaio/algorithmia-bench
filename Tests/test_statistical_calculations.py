@@ -125,7 +125,7 @@ class TestStatisticalCalculations():
 
         b.calcStats(mapFunc)
 
-        assert b.stats['accuracy']['overall'] == 0.75
+        assert b.stats['accuracy']['overall'] == 0.6
         assert b.stats['accuracy']['labels'][5] == 0.8
         assert b.stats['accuracy']['labels'][7] == 0.8
 
